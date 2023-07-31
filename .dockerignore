@@ -1,0 +1,6 @@
+/.env
+/session.txt
+/Dockerfile
+/docker-compose.yml
+/models
+/store

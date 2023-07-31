@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "whisper-bot"
+version = "0.1.0"
+description = ""
+authors = []
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+simplematrixbotlib = {git = "https://codeberg.org/olop/simplematrixbotlib.git", branch = "make_timeout_configurable"}
+torch = "^1.13.1"
+transformers = "^4.26.1"
+matrix-nio = {version = "0.20", extras = ["e2e"]}
+faster-whisper = "^0.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

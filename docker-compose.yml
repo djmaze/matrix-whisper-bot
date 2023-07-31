@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  app:
+    build: .
+    image: decentralize/matrix-whisper-bot:0.1.1
+    env_file:
+      - .env
+    volumes:
+      - .:/app
